@@ -119,7 +119,7 @@ multi_ai = Agent(
 # Example usage with error handling
 try:
     response = multi_ai.print_response(
-        "Analyze the current market trends and provide a comprehensive report on the technology sector's performance, including major companies' stock movements and recent news affecting the industry.",
+        "Analyze the current market trends and provide a comprehensive report on the AI sector's performance, including major companies' stock movements and recent news affecting the industry.",
         stream=True
     )
 except Exception as e:
